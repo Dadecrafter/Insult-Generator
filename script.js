@@ -72,6 +72,9 @@ var noun = randomNoun;
 var adgent = randomAdgent;
 
 console.log(adjective,noun,adgent);
+console.log(adjetives.length);
+console.log(nouns.length);
+console.log(adgents.length);
 
 document.getElementById("adjective").innerHTML = adjective + " ";
 document.getElementById("noun").innerHTML = noun + " ";
